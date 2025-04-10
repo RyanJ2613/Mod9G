@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+	
+    <title>M8flex Page</title>
+    <style>
+ 
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+            background-color: black;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+        nav ul li {
+            flex: 1;
+            text-align: center;
+            padding: 1em;
+        }
+        main {
+            display: flex;
+            padding: 1em;
+        }
+        article {
+            flex: 60%;
+            margin: 1.5em 2.52525% 0 2.0202%;
+        }
+	         article img {
+             max-width: 100%;
+             margin-bottom: 1em;
+         }
+   
+        aside {
+            flex: 40%;
+            padding: 2.0202%;
+            max-width: 200px;
+            min-height: 180px;
+            background-color: #ffebc6;
+            margin: 1.5em 2.0202% 0 0;
+        }
+        footer {
+            background-color: pink;
+            padding: 1em;
+            text-align: center;
+        }
+		
+	#galGrid {display:grid;
+			grid-template-columns: repeat(auto-fill,minmax(200px,   
+    1fr))
+
+	gap:20px;
+	align-items:stretch;
+	gap:20px;
+	margin-bottom:20px;
+	}
+
+galGrid img {border-width:1px;
+			border-color:(#CCCCCC);
+			box-shadow:2px 2px 6px 0px rgba(0,0,0,0.3);
+			max-width:100%;}
+		
+    </style>
+</head>
+
+    <header>
+        <h2>Header Title</h2>
+        <h3>Subheading Goes Here</h3>
+    </header>
+    <nav>
+        <ul>
+         		<li>Home</li>
+			<li>Page 2</li>
+			<li>Page 3</li>
+			<li>Page 4</li>
+        </ul>
+    </nav>
+    <main>
+        <article>
+            <h1>Article Title Goes Here</h1>
+            <img src="images/M8_Lab_Pic.png" alt="Picture of M8 Lab">
+            <p>Lorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum Ipsum</p>
+        </article>
+        <aside>
+            <h2>A Little Aside Title</h2>
+            <ol>
+                <li>Filler text 1</li>
+                <li>Filler text 2</li>
+                <li>Filler text 3</li>
+                <li>Filler text 4</li>
+            </ol>
+        </aside>
+    </main>
+	<h2>Sample Image Gallery</h2>
+		<div id="galGrid">
+			<img src="images/M9_4.png" alt="Picture of Woman on Horse in color">
+			<img src="images/M9_1.png" alt="Picture of Woman next to horse in color">
+			<img src="images/M9_2.png" alt="Picture of dogs around a horse">
+			<img src="images/M9_3.png" alt="Picture of woman on horse in black and white">
+			<img src="images/M9_4.png" alt="Picture of Woman on Horse in color">
+			<img src="images/M9_1.png" alt="Picture of Woman next to horse in color">
+	
+	</div>
+	
+    <footer>
+        <p><small>Lorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum IpsumLorum</small></p>
+    </footer>
+
+</html>
